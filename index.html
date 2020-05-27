@@ -3,27 +3,29 @@
   <head>
     <title>Our Story</title>
     <meta charset="utf-8" >
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1>Welcome to Soon-Uk :ㅑ</h1>
+    <h1><a href="index.html" title="go to index page">Welcome to Soon-Uk :ㅑ</a></h1>
 
-    <h2> <a href="index.html" title="go to index page">Home</a> </h2>
-    <ul>
-      <li><a href="info.html">최순욱 info</a></li>
-      <li><a href="memory.html">같이 기억하고 싶은 것들</a></li>
-      <li><a href="active.html">미닝이의 생산적 활동</a></li>
-    </ul>
+    <div id="grid">
+      <ul>
+        <li><a href="info.html">최순욱 info</a></li>
+        <li><a href="memory.html">같이 기억하고 싶은 것들</a></li>
+        <li><a href="active.html">미닝이의 생산적 활동</a></li>
+      </ul>
 
-    <br>
-    <br>
+      <div id="article">
+        <h2>This page...</h2>
+        <img src="main.jpg" width="100%">
+        <p>이 공간은 그저 저의 <strong>html 연습용</strong> 입니다. 이것은 최순욱군만 볼 수 있으며 그의 정보와 우리가 같이 공유했던 기억들. <br>그리고 그를 만나면서 제가 했던 생산적 활동들을 저장해 놓고자 만들게 되었습니다. </p>
+        <p> 지금 저의 상태를 잠시 설명하자면 굉장히 배가 고프네요. <br> 저는 오늘 점심을 미정0410이라는 식당에서 먹었습니다. 잔치국수와 명란마요주먹밥을 먹었죠. <br>분명 3시까지는 배가 부르다는 생각을 했던 것 같습니다. <br>밀가루라서 그랬던걸까요? 배가 쉽게 꺼졌습니다. <br>오늘 요가를 하러 갈 생각을 했는데 과연.. 제가 힘을 내서 요가를 할 수 있을지가 의문이군요.</p>
+      </div>
+    </div>
 
-    <h2>This page...</h2>
-    <img src="main.jpg" width="100%">
-    <p>이 공간은 그저 저의 <strong>html 연습용</strong> 입니다. 이것은 최순욱군만 볼 수 있으며 그의 정보와 우리가 같이 공유했던 기억들. <br>그리고 그를 만나면서 제가 했던 생산적 활동들을 저장해 놓고자 만들게 되었습니다. </p>
-    <p> 지금 저의 상태를 잠시 설명하자면 굉장히 배가 고프네요. <br> 저는 오늘 점심을 미정0410이라는 식당에서 먹었습니다. 잔치국수와 명란마요주먹밥을 먹었죠. <br>분명 3시까지는 배가 부르다는 생각을 했던 것 같습니다. <br>밀가루라서 그랬던걸까요? 배가 쉽게 꺼졌습니다. <br>오늘 요가를 하러 갈 생각을 했는데 과연.. 제가 힘을 내서 요가를 할 수 있을지가 의문이군요.</p>
+    <div id="disqus_thread"></div>
     <p>
-      <div id="disqus_thread"></div>
       <script>
 
       /**
@@ -43,7 +45,6 @@
       })();
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
     </p>
 
   </body>
